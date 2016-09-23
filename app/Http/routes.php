@@ -1,5 +1,5 @@
 Route::get('/', function () {
-   return 'Hello World';
+   return view('home');
 });
 
 Route::post('foo/bar', function () {
